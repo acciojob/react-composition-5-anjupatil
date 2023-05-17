@@ -12,9 +12,9 @@ const App = () => {
   ];
 
   const tabsSet2 = [
-    { title: 'Tab A', content: 'Tab A' },
-    { title: 'Tab B', content: 'Tab B' },
-    { title: 'Tab C', content: 'Tab C' },
+    { title: 'Tab A', content: 'Content for Tab A' },
+    { title: 'Tab B', content: 'Content for Tab B' },
+    { title: 'Tab C', content: 'Content for Tab C' },
   ];
   
   return (
@@ -22,7 +22,7 @@ const App = () => {
         {/* Do not remove the main div */}
         <h1>Tabs Example</h1>
         <Tabs tabs={tabsSet1} key="set1" ></Tabs>
-        <Tabs tabs={tabsSet1} key="set2" ></Tabs>
+        <Tabs tabs={tabsSet2} key="set2" ></Tabs>
     </div>
   )
 }
